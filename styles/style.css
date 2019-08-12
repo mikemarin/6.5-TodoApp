@@ -57,3 +57,11 @@ xinput:not([text]), xinput[type=text] {
   background: green;
 
 } */
+
+form.mdl-textfield {
+  display: block;
+}
+
+button.mdl-button {
+  display: block;
+}
