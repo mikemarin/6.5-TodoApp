@@ -14,23 +14,41 @@
   	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom Styles -->
-  	<link href="styles/style.css" rel="stylesheet">
+  	<link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
 
   </head>
   <body>
+    <div class="app-wrapper mdl-shadow--2dp through mdl-shadow--8dp">
 
-    <h1>To-Do App</h1>
+      <header class="h1-header">
+        <h1>To-Do App</h1>
+      </header>
 
-    <form id="addToDoForm">
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <label class="mdl-textfield__label" for="newToDoText">New To-Do:</label>
-        <input class="mdl-textfield__input" type="text" id="newToDoText">
-        <button class="mdl-button mdl-js-button mdl-button--raised" type="submit">Add To-Do!</button>
+
+
+      <form id="addToDoForm">
+        <div class="formLeft" class="">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="newToDoText">
+            <label class="mdl-textfield__label" for="newToDoText">New To-Do:</label>
+          </div>
+        </div>
+        <div class="formRight">
+          <button class="mdl-button mdl-js-button mdl-button--raised" type="submit">Add To-Do!</button>
+        </div>
+      </form><!-- #addToDoForm END -->
+
+      <div class="underline">
       </div>
-    </form>
 
-    <ul id="toDoList">
-    </ul>
+      <ul id="toDoList">
+      </ul><!-- #toDoList END -->
+
+      <div class="ul-Bottom">
+      </div><!-- .ul-Bottom END -->
+
+    </div>
 
     <script src="app.js"></script>
 
