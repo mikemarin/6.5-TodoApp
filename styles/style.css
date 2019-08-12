@@ -1,0 +1,59 @@
+/*
+
+body {
+  width: 100%;
+  background-color: red;
+}
+
+.app-wrapper {
+  margin: 0 auto;
+  background-color: white;
+  width: 60%;
+}
+
+h1 {
+  font-size: 3.5rem;
+text-align: center;
+color: green;
+}
+
+xform {
+border: 1px solid black;
+}
+
+xul {
+  xwidth: 25%;
+  border: 1px solid black;
+
+  text-align: center;
+list-style-type: none;
+}
+
+
+
+xli {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  xoverflow: hidden;
+}
+
+form {
+  display: inline-block;
+}
+
+
+x#addToDoForm {
+  text-align: center;
+}
+
+xlabel[for="newToDoText"] {
+  color: orange;
+}
+
+xinput:not([text]), xinput[type=text] {
+  background: green;
+
+} */
